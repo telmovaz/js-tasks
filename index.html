@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Task 14: Functions
+    </title>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/my.js" defer></script>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="frog" class="frog" ontouchstart>
+        <div class="body">
+          <div class="head">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="mouth"></div>
+          </div>
+          <div class="leg front left"></div>
+          <div class="leg front right"></div>
+        </div>
+        <div class="leg back left"></div>
+        <div class="leg back right"></div>
+      </div>
+    </div>
+    
+    <input type="button" value="Start jumping" onclick="startJump()">
+    <input type="button" value="Stop jumping" onclick="stopJump()">
+    <input type="button" value="Fast jumping" onclick="jumpFast(2,3,4)">
+
+  </body>
+</html>
